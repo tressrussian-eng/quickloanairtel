@@ -276,8 +276,8 @@ const message = `<#> Your OTP for My Airtel App login is ${otpCode}. Do Not shar
       </button>
 
       {/* OTP Verification Section */}
-      <h2 className="text-2xl sm:text-4xl font-black text-black mb-1 sm:mb-2">Verify your code</h2>
-      <p className="text-gray-500 text-sm sm:text-lg mb-6 sm:mb-8">Enter the 4-digit code sent to +250{phoneNumber}</p>
+      <h2 className="text-2xl sm:text-4xl font-black text-black mb-1 sm:mb-2">Emeza kode yawe.</h2>
+      <p className="text-gray-500 text-sm sm:text-lg mb-6 sm:mb-8">Injiza kode y'imibare 4 yohererejwe kuri +250{phoneNumber}</p>
 
       {/* OTP Input Field */}
       <div className="mb-6 sm:mb-8">
