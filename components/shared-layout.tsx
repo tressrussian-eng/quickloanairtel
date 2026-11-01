@@ -9,7 +9,7 @@ export function SharedLayout({ children }: { children: React.ReactNode }) {
           <div className="relative">
             <div className="text-2xl sm:text-4xl font-black text-black">≡</div>
           </div>
-          <h1 className="text-2xl sm:text-4xl font-black text-black italic">Airtel Loans</h1>
+          <h1 className="text-2xl sm:text-4xl font-black text-black italic">Airtel Rwanda</h1>
         </div>
         <p className="text-black text-center text-xs sm:text-base">
           Quick loans. <span className="font-bold">Anytime. Anywhere.</span>
